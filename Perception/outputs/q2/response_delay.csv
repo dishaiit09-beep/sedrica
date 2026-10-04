@@ -1,0 +1,5 @@
+method,episode,first_required_time_s,response_delay_s
+Baseline,late_red,0.9,0.0
+Baseline,person_crossing,1.0,0.0
+Revised,late_red,0.9,0.0
+Revised,person_crossing,1.0,0.0

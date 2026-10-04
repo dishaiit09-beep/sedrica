@@ -1,0 +1,13 @@
+method,sequence,row,MAE_px,unknown_rate
+Baseline,clear,near,0.11,0.0
+Baseline,clear,far,0.16,0.0
+Baseline,shadow,near,0.17,0.208
+Baseline,shadow,far,0.29,0.5
+Baseline,missing,near,0.17,0.208
+Baseline,missing,far,65.82,0.375
+Revised,clear,near,0.11,0.0
+Revised,clear,far,0.16,0.0
+Revised,shadow,near,0.19,0.0
+Revised,shadow,far,0.24,0.0
+Revised,missing,near,0.19,0.0
+Revised,missing,far,1.08,0.0

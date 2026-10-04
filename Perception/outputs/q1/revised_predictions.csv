@@ -1,0 +1,73 @@
+sequence,frame,near_center,far_center,near_confidence,far_confidence,near_reason,far_reason
+clear,000.png,241.25,243.0,1.0,1.0,two boundaries,two boundaries
+clear,001.png,242.5,244.0,0.9980657640232108,1.0,two boundaries,two boundaries
+clear,002.png,243.5,245.0,0.9980657640232108,1.0,two boundaries,two boundaries
+clear,003.png,244.75,245.75,0.9961315280464217,0.9969325153374233,two boundaries,two boundaries
+clear,004.png,245.75,246.25,0.9961315280464217,0.9969325153374233,two boundaries,two boundaries
+clear,005.png,247.0,247.0,0.9980657640232108,1.0,two boundaries,two boundaries
+clear,006.png,248.25,248.0,0.9961315280464217,1.0,two boundaries,two boundaries
+clear,007.png,249.25,248.75,0.9961315280464217,0.9969325153374233,two boundaries,two boundaries
+clear,008.png,250.0,249.0,0.9980657640232108,1.0,two boundaries,two boundaries
+clear,009.png,250.75,250.0,0.9961315280464217,1.0,two boundaries,two boundaries
+clear,010.png,251.5,250.0,0.9980657640232108,1.0,two boundaries,two boundaries
+clear,011.png,252.25,250.75,0.9961315280464217,0.9969325153374233,two boundaries,two boundaries
+clear,012.png,253.25,251.0,0.9961315280464217,1.0,two boundaries,two boundaries
+clear,013.png,253.5,251.0,0.9980657640232108,1.0,two boundaries,two boundaries
+clear,014.png,254.25,251.25,0.9961315280464217,0.9969325153374233,two boundaries,two boundaries
+clear,015.png,254.25,251.75,0.9961315280464217,0.9969325153374233,two boundaries,two boundaries
+clear,016.png,254.5,251.75,0.9980657640232108,0.9969325153374233,two boundaries,two boundaries
+clear,017.png,254.5,251.75,0.9980657640232108,0.9969325153374233,two boundaries,two boundaries
+clear,018.png,254.75,251.25,1.0,0.9969325153374233,two boundaries,two boundaries
+clear,019.png,254.5,251.0,0.9980657640232108,1.0,two boundaries,two boundaries
+clear,020.png,254.5,251.0,0.9980657640232108,1.0,two boundaries,two boundaries
+clear,021.png,254.25,250.5,0.9961315280464217,1.0,two boundaries,two boundaries
+clear,022.png,254.0,250.0,0.9980657640232108,1.0,two boundaries,two boundaries
+clear,023.png,253.25,249.75,0.9961315280464217,0.9969325153374233,two boundaries,two boundaries
+shadow,000.png,241.25,243.0,0.6,1.0,one boundary + width prior,two boundaries
+shadow,001.png,242.25,244.0,0.6,1.0,one boundary + width prior,two boundaries
+shadow,002.png,243.25,245.75,0.6,0.99079754601227,one boundary + width prior,two boundaries
+shadow,003.png,243.5,245.5,0.9941972920696325,0.6,two boundaries,one boundary + width prior
+shadow,004.png,245.75,246.0,0.9961315280464217,0.6,two boundaries,one boundary + width prior
+shadow,005.png,247.0,247.0,0.9980657640232108,0.6,two boundaries,one boundary + width prior
+shadow,006.png,248.25,248.0,0.9961315280464217,0.6,two boundaries,one boundary + width prior
+shadow,007.png,249.25,248.5,0.9961315280464217,0.6,two boundaries,one boundary + width prior
+shadow,008.png,250.0,249.0,0.9980657640232108,0.6,two boundaries,one boundary + width prior
+shadow,009.png,250.75,250.0,0.9961315280464217,0.6,two boundaries,one boundary + width prior
+shadow,010.png,251.5,250.0,0.9980657640232108,0.6,two boundaries,one boundary + width prior
+shadow,011.png,252.25,250.5,0.9961315280464217,0.6,two boundaries,one boundary + width prior
+shadow,012.png,253.25,250.25,0.9961315280464217,0.99079754601227,two boundaries,two boundaries
+shadow,013.png,253.5,251.0,0.9980657640232108,1.0,two boundaries,two boundaries
+shadow,014.png,254.25,251.25,0.9961315280464217,0.9969325153374233,two boundaries,two boundaries
+shadow,015.png,254.25,251.75,0.9961315280464217,0.9969325153374233,two boundaries,two boundaries
+shadow,016.png,254.5,251.75,0.9980657640232108,0.9969325153374233,two boundaries,two boundaries
+shadow,017.png,254.5,251.75,0.9980657640232108,0.9969325153374233,two boundaries,two boundaries
+shadow,018.png,254.75,251.25,1.0,0.9969325153374233,two boundaries,two boundaries
+shadow,019.png,254.5,251.0,0.9980657640232108,1.0,two boundaries,two boundaries
+shadow,020.png,254.5,251.0,0.9980657640232108,1.0,two boundaries,two boundaries
+shadow,021.png,254.25,250.5,0.9961315280464217,0.6,two boundaries,one boundary + width prior
+shadow,022.png,254.25,250.0,0.6,0.6,one boundary + width prior,one boundary + width prior
+shadow,023.png,253.75,250.0,0.6,0.6,one boundary + width prior,one boundary + width prior
+missing,000.png,241.25,243.0,0.6,0.6,one boundary + width prior,one boundary + width prior
+missing,001.png,242.25,244.0,0.6,0.6,one boundary + width prior,one boundary + width prior
+missing,002.png,243.25,246.5,0.6,0.6,one boundary + width prior,one boundary + width prior
+missing,003.png,243.5,246.5,0.9941972920696325,0.35,two boundaries,temporal fallback
+missing,004.png,245.75,246.5,0.9961315280464217,0.35,two boundaries,temporal fallback
+missing,005.png,247.0,246.5,0.9980657640232108,0.35,two boundaries,temporal fallback
+missing,006.png,248.25,246.5,0.9961315280464217,0.35,two boundaries,temporal fallback
+missing,007.png,249.25,246.5,0.9961315280464217,0.35,two boundaries,temporal fallback
+missing,008.png,250.0,246.5,0.9980657640232108,0.35,two boundaries,temporal fallback
+missing,009.png,250.75,246.5,0.9961315280464217,0.35,two boundaries,temporal fallback
+missing,010.png,251.5,246.5,0.9980657640232108,0.35,two boundaries,temporal fallback
+missing,011.png,252.25,246.5,0.9961315280464217,0.35,two boundaries,temporal fallback
+missing,012.png,253.25,249.5,0.9961315280464217,0.6,two boundaries,one boundary + width prior
+missing,013.png,253.5,251.0,0.9980657640232108,0.6,two boundaries,one boundary + width prior
+missing,014.png,254.25,251.0,0.9961315280464217,0.6,two boundaries,one boundary + width prior
+missing,015.png,254.25,252.0,0.9961315280464217,0.6,two boundaries,one boundary + width prior
+missing,016.png,254.5,252.0,0.9980657640232108,0.6,two boundaries,one boundary + width prior
+missing,017.png,254.5,252.0,0.9980657640232108,0.6,two boundaries,one boundary + width prior
+missing,018.png,254.75,251.0,1.0,0.6,two boundaries,one boundary + width prior
+missing,019.png,254.5,251.0,0.9980657640232108,0.6,two boundaries,one boundary + width prior
+missing,020.png,254.5,251.0,0.9980657640232108,0.6,two boundaries,one boundary + width prior
+missing,021.png,254.25,250.5,0.9961315280464217,0.6,two boundaries,one boundary + width prior
+missing,022.png,254.25,250.0,0.6,0.6,one boundary + width prior,one boundary + width prior
+missing,023.png,253.75,250.0,0.6,0.6,one boundary + width prior,one boundary + width prior

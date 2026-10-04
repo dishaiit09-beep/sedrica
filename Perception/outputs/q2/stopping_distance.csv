@@ -1,0 +1,4 @@
+episode,first_stop_frame,speed_mps,distance_to_line_m,stopping_distance_m,comfortable_stop_possible
+clear_green,,,,,No STOP request
+late_red,9.0,0.8,2.03,0.52,True
+person_crossing,10.0,0.8,1.95,0.52,True
